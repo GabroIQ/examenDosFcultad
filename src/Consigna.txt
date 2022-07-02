@@ -1,0 +1,21 @@
+SEGUNDO PARCIAL TECNICAS DE PROGRAMACION 29/06/22
+Confeccionar un sistema para administrar un estacionamiento.
+El estacionamiento de 3 pisos tiene capacidad para, 4 motos, 4 autos y 4 camionetas. Todas las cocheras se
+encuentran numeradas del 1 al 12 de la siguiente manera:
+ Piso 1 – Motos : 1-4
+ Piso 2 – Autos : 5-8
+ Piso 3 – Camionetas : 9-12
+Realizar un sistema que permita varias acciones, registrar varios vehículos y/o solicitar la facturación del
+día, utilizar un vector para todas las cocheras.
+Para poder registrar el ingreso de un vehículo se le solicitará al usuario que mediante un menú de opciones
+que seleccione el tipo de vehículo que se desea estacionar, una vez seleccionado el tipo de vehículo, se
+deberá ingresar el número de cochera para estacionar el mismo. En caso de que el lugar se encuentre
+ocupado, mostrar un mensaje indicando que la cochera no se encuentra disponible
+El estacionamiento solamente maneja estadías de 24 horas, por ende una cochera solamente puede ser
+ocupado una vez al día, al solicitar la facturación del día, se deberá informar lo siguiente:
+ Cantidad de vehículos por tipo
+ Monto total facturado en el día
+Los precios de las estadías por vehículos son de $150 para motos, $500 para autos y $800 para camionetas.
+Realizar las siguientes funciones en el sistema:
+ Int / bool Esta_Ocupado(int cochera, int[] estacionamiento)
+ Void Mostrar_Facturacion(int[] estacionamiento)
